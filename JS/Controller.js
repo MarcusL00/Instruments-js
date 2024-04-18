@@ -5,7 +5,7 @@ function btnGuitar(){
 }
 
 function btnFlute(){
-    const flute = new Flute("my flute","Metal");
+    const flute = new Flute("my flute",5,"Metal");
     flute.playSound();
 }
 
@@ -15,6 +15,6 @@ function btnSaxophone(){
 }
 
 function btnHarp(){
-    const harp = new Harp("my Harp",32,"Metal");
+    const harp = new Harp("my Harp",25,123,"Metal");
     harp.playSound();
 }
